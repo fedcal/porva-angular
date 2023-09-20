@@ -1,0 +1,7 @@
+<p *ngIf="isVisible; then bloccoIf else bloccoElse"></p>
+<ng-template #bloccoElse >
+  <p>Ciao2</p>
+</ng-template> 
+<ng-template #bloccoIf>
+    <p>bloccoIf</p>
+</ng-template>

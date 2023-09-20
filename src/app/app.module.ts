@@ -11,9 +11,11 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { FormComponent } from './form/form.component';
+import { FormsModule } from '@angular/forms';
+import { NgIfProvaComponent } from './ng-if-prova/ng-if-prova.component';
 
 @NgModule({
-  declarations: [AppComponent, ProvaComponent, FormComponent],
+  declarations: [AppComponent, ProvaComponent, FormComponent, NgIfProvaComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,6 +24,7 @@ import { FormComponent } from './form/form.component';
     MatCardModule,
     MatButtonModule,
     MatInputModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
