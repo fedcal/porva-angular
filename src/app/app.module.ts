@@ -14,9 +14,10 @@ import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { NgIfProvaComponent } from './ng-if-prova/ng-if-prova.component';
 import { NgForProvaComponent } from './ng-for-prova/ng-for-prova.component';
+import { NgSwitchProvaComponent } from './ng-switch-prova/ng-switch-prova.component';
 
 @NgModule({
-  declarations: [AppComponent, ProvaComponent, FormComponent, NgIfProvaComponent, NgForProvaComponent],
+  declarations: [AppComponent, ProvaComponent, FormComponent, NgIfProvaComponent, NgForProvaComponent, NgSwitchProvaComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
