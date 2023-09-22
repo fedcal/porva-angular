@@ -11,4 +11,8 @@ export class AppComponent {
     {nome:"luca",cognome:"rossi", isOnline: true, color:"yellow"},
     {nome:"giovanni",cognome:"verdi", isOnline: false, color:"red"}
   ]
+
+  ricezioneDati(value: string){
+    console.log(value)
+  }
 }

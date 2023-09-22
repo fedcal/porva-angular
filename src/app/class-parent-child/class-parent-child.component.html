@@ -1,3 +1,5 @@
 <div *ngFor = "let persona of data;">
     <p [ngStyle]="{color: persona.color}">{{persona.nome}}</p>
 </div>
+
+<button (click)="restituisci()">Restituisci dati</button>

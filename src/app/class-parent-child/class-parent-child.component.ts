@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'class-parent-child',
@@ -8,10 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ClassParentChildComponent implements OnInit {
   @Input() data: any;
 
+  @Output() ritornoComponente = new EventEmitter<string>()
+
   constructor(){}
 
   ngOnInit(): void{
     console.log(this.data)
+  }
+
+  restituisci(){
+    this.ritornoComponente.emit("ciao")
   }
   
 
