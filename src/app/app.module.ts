@@ -17,9 +17,10 @@ import { NgForProvaComponent } from './ng-for-prova/ng-for-prova.component';
 import { NgSwitchProvaComponent } from './ng-switch-prova/ng-switch-prova.component';
 import { NgStyleProvaComponent } from './ng-style-prova/ng-style-prova.component';
 import { NgClassProvaComponent } from './ng-class-prova/ng-class-prova.component';
+import { ClassParentChildComponent } from './class-parent-child/class-parent-child.component';
 
 @NgModule({
-  declarations: [AppComponent, ProvaComponent, FormComponent, NgIfProvaComponent, NgForProvaComponent, NgSwitchProvaComponent, NgStyleProvaComponent, NgClassProvaComponent],
+  declarations: [AppComponent, ProvaComponent, FormComponent, NgIfProvaComponent, NgForProvaComponent, NgSwitchProvaComponent, NgStyleProvaComponent, NgClassProvaComponent, ClassParentChildComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

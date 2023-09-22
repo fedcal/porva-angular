@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prova-angular';
+  persone = [
+    {nome:"luca",cognome:"rossi", isOnline: true, color:"yellow"},
+    {nome:"giovanni",cognome:"verdi", isOnline: false, color:"red"}
+  ]
 }
